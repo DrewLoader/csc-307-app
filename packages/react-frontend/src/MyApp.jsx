@@ -7,7 +7,7 @@ function MyApp() {
 
         function removeOneCharacter(index){
 		
-		fetch(`http://localhost:8000/users/${id}`,{
+		fetch(`http://localhost:8000/users/${_id}`,{
 			method: 'DELETE',
 		})
 		.then(response => {
